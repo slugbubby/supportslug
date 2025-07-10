@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    // Support SvelteKit $lib alias
+    "paths": {
+      "$lib": ["./client/src/lib"],
+      "$lib/*": ["./client/src/lib/*"]
+    }
+  },
+  "references": [
+    { "path": "./client" } // Reference your SvelteKit project
+    // Add references to other packages in your monorepo
+  ],
+  "include": [],
+  "exclude": ["node_modules"]
+}

@@ -9,7 +9,8 @@
 		"skipLibCheck": true,
 		"sourceMap": true,
 		"strict": true,
-		"module": "NodeNext",
-		"moduleResolution": "NodeNext"
+		// Use SvelteKit default "bundler" as resolution for $lib alias support
+		// "module": "NodeNext",
+		// "moduleResolution": "NodeNext"
 	}
 }
